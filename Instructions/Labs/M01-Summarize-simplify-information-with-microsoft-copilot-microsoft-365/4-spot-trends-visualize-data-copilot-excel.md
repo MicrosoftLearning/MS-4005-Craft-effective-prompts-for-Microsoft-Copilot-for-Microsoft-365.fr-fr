@@ -15,7 +15,7 @@ Vous pouvez transformer rapidement une plage de cellules en un tableau Excel en 
 
 1. Sélectionnez **OK**.
 
-![Capture d’écran du panneau Copilot dans Excel lors de la première ouverture.](../media/copilot-pane-Excel.png)
+![Capture d’écran du panneau Copilot dans Excel lors de la première ouverture.](../media/copilot-pane-excel.png)
 
 ## Commençons
 

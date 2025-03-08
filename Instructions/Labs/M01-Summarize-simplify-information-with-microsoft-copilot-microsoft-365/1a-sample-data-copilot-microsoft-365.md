@@ -17,8 +17,14 @@ Suivez les étapes ci-dessous pour charger tous les fichiers requis dans **OneDr
 3. Dans la barre d’adresse, entrez `https://www.office.com` .
 4. Sous **Bienvenue dans Microsoft 365**, sélectionnez **Se connecter**.
 5. À l’**invite de connexion**, entrez `userx@yourtenant.onmicrosoft.com` (nom d’utilisateur et locataire fournis par votre fournisseur de locataire), puis sélectionnez **Suivant**.
+
+    [![Capture d’écran du volet de ressources dans Skillable](../media/lab_resources_password.png)](../media/lab_resources_password.png#lightbox)
+
 6. Dans l’écran **Entrez le mot de passe**, entrez le mot de passe (fourni par le fournisseur de locataire) pour le compte d’utilisateur, puis sélectionnez **Se connecter**.
 7. Si vous êtes invité à **rester connecté**, sélectionnez **Ne plus afficher**, puis **Oui**.
+
+    **Remarque :** si la page web apparaît floue après la connexion, actualisez la page.
+
 8. Dans **Microsoft 365**, sélectionnez **Applications**.
 9. Dans **Applications**, sélectionnez **OneDrive**.
 10. Dans **OneDrive**, dans le coin supérieur gauche, sélectionnez **+** (ajouter) > **Chargement de fichiers**.

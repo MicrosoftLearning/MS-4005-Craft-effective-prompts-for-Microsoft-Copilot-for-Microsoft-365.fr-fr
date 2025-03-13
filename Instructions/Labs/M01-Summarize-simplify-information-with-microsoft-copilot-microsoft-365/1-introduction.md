@@ -1,3 +1,4 @@
+# Introduction
 
 Dans ce module, vous apprendrez à créer des prompts contextuels efficaces pour que Microsoft 365 Copilot **résume** des informations dans les applications Microsoft 365. Si vous souhaitez améliorer vos compétences en matière d’invites pour Copilot, ce module vous permet d’acquérir les connaissances et techniques nécessaires pour créer des invites qui produisent des résultats précis et utiles à partir de Microsoft 365 Copilot.
 

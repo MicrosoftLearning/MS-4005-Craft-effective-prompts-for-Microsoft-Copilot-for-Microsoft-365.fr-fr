@@ -1,12 +1,14 @@
-Microsoft 365 Copilot dans PowerPoint est une fonctionnalité basée sur l’IA qui peut vous aider à créer, à concevoir et à mettre en forme vos diapositives.  Vous pouvez taper ce que vous avez l’intention de transmettre avec votre présentation et Copilot vous aide à le faire. 
+# Créer de nouvelles diapositives, des agendas et des listes de tâches avec Microsoft 365 Copilot dans PowerPoint
+
+Microsoft 365 Copilot dans PowerPoint est une fonctionnalité basée sur l’IA qui peut vous aider à créer, à concevoir et à mettre en forme vos diapositives.  Vous pouvez taper ce que vous avez l’intention de transmettre avec votre présentation et Copilot vous aide à le faire.
 
 Copilot peut vous aider à passer la diapositive vide initiale et à vous déplacer dans le bon sens. Pour commencer à utiliser Copilot dans PowerPoint, vous pouvez ouvrir le volet **Copilot** via l’icône Copilot dans l’onglet **Accueil** du ruban.
 
-![Capture d’écran de l’icône Copilot dans le ruban PowerPoint.](../media/copilot-ribbon-powerpoint.png)
+![Capture d’écran de l’icône Copilot dans le ruban PowerPoint.](../media/create_copilot-ribbon-powerpoint.png)
 
 Dans le volet Copilot, vous pouvez commencer à créer une présentation à partir d’un document Word ou d’un sujet donné. Dans l’exemple, nous commençons par une requête de base pour créer une présentation sur un thème et ajouter d’autres éléments pour rendre l’invite plus efficace.
 
-![Capture d’écran du volet Copilot dans PowerPoint lors de la première ouverture.](../media/copilot-pane-powerpoint.png)
+![Capture d’écran du volet Copilot dans PowerPoint lors de la première ouverture.](../media/create_copilot-pane-powerpoint.png)
 
 > [!TIP]
 > Actuellement, Copilot dans PowerPoint peut uniquement créer des présentations à partir de documents Word.
@@ -26,17 +28,15 @@ Dans ce prompt simple, vous commencez par l’**objectif** de base : _créer un
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **_Crée une nouvelle présentation PowerPoint._** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre le type de document que vous souhaitez créer et à quelle fin il sera utilisé.<br><br>« _Nous devons présenter les fonctionnalités et les avantages du produit aux clients potentiels._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | L’ajout de **sources** peut aider Copilot à savoir où rechercher des informations spécifiques.<br><br>«  _…à l’aide de la dernière version du fichier **/Market Trend Report - Protein shake.docx**._  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le document soit écrit et mis en forme.<br><br>« _Merci d’inclure une vue d’ensemble du produit, ses principales caractéristiques et avantages, ainsi qu’une comparaison avec des produits similaires sur le marché. Utilise un langage simple._  » |
+| **Invite de base :** commencez par un **objectif** | **_Crée une nouvelle présentation PowerPoint._** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre le type de document que vous souhaitez créer et à quelle fin il sera utilisé. _« Nous devons présenter les fonctionnalités et les avantages du produit aux clients potentiels. »_ |
+| **Meilleur prompt :** spécifier la ou les **sources** | L’ajout de **sources** peut aider Copilot à savoir où rechercher des informations spécifiques. _« …à l’aide de la dernière version du fichier **/Market Trend Report - Protein shake.docx**. »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le document soit écrit et mis en forme. _« Merci d’inclure une vue d’ensemble du produit, ses principales caractéristiques et avantages, ainsi qu’une comparaison avec des produits similaires sur le marché. Utilise un langage simple. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
 >
 > _Crée une présentation PowerPoint à l’aide de la dernière version du fichier **/Market Trend Report- Protein shake.docx**. Nous devons présenter les caractéristiques et les avantages du produit à des clients potentiels. Merci d’inclure une vue d’ensemble du produit, ses principales caractéristiques et avantages, ainsi qu’une comparaison avec des produits similaires sur le marché. Utilise un langage simple._
-
-[![Capture d’écran des résultats du prompt créé à partir de l’exemple de document à l’aide de Copilot dans PowerPoint.](../media/copilot-draft-results-powerpoint.png)](../media/copilot-draft-results-powerpoint.png#lightbox)
 
 Maintenant que l’**objectif**, le **contexte**, la **source** et les **attentes** ont tous été inclus, Copilot a tout ce dont il a besoin pour vous donner une réponse utile.
 
@@ -62,4 +62,4 @@ Lors de la création d’une présentation, Copilot tente d’incorporer les ima
 Si votre organisation utilise un modèle standard, commencez avec ce fichier avant de créer une présentation avec Copilot. Si vous partez d’un modèle, Copilot saura que vous souhaitez conserver le thème et la conception de la présentation. Copilot utilisera les dispositions existantes pour créer une présentation pour vous.
 
 > [!IMPORTANT]
-> Cette fonctionnalité est disponible pour les clients disposant d’une licence Copilot pour Microsoft 365 ou d’une licence Copilot Pro. Pour plus d’informations, consultez [Créer une présentation à partir d’un fichier avec Copilot](https://support.microsoft.com/office/create-a-new-presentation-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+> Cette fonctionnalité est disponible pour les clients disposant d’une licence Microsoft 365 Copilot ou d’une licence Copilot Pro. Pour plus d’informations, consultez [Créer une présentation à partir d’un fichier avec Copilot](https://support.microsoft.com/office/create-a-new-presentation-3222ee03-f5a4-4d27-8642-9c387ab4854d).

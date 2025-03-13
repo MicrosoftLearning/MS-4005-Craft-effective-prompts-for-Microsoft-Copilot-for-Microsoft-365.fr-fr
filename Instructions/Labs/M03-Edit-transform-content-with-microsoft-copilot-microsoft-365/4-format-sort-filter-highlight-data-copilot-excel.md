@@ -1,11 +1,12 @@
+# Mettre en forme, trier, filtrer et surligner des données à l’aide de Microsoft 365 Copilot dans Excel
 
-Avec Microsoft 365 Copilot dans Excel, il est facile de mettre en surbrillance, trier et filtrer vos tableaux pour attirer rapidement l’attention sur ce qui vous importe. Dans un seul tableau dans Excel, vous pouvez facilement demander à Copilot de : 
+Avec Microsoft 365 Copilot dans Excel, il est facile de mettre en surbrillance, trier et filtrer vos tableaux pour attirer rapidement l’attention sur ce qui vous importe. Dans un seul tableau dans Excel, vous pouvez facilement demander à Copilot de :
 
 - Trier et filtrer vos données
 
 - Appliquer une mise en forme conditionnelle simple
 
-Pour commencer, mettez en forme vos données sous forme de tableau et sélectionnez l’icône **Copilot** dans le ruban. Ensuite, indiquez à Copilot comment vous souhaitez manipuler le tableau pour mieux afficher certaines parties de vos données. 
+Pour commencer, mettez en forme vos données dans un [format pris en charge](https://support.microsoft.com/topic/format-data-for-copilot-in-excel-1604c8eb-57f1-4db1-8363-d53336228c65) et sélectionnez le bouton **Copilot** dans le ruban. Ensuite, indiquez à Copilot comment vous souhaitez manipuler le tableau pour mieux afficher certaines parties de vos données.
 
 Dans l’exemple suivant, nous commençons par un prompt simple et nous ajoutons des éléments au fur et à mesure. Suivez la procédure avec l’exemple en utilisant vos propres données.
 
@@ -24,25 +25,29 @@ Dans ce prompt simple, vous commencez par l’**objectif** de base : _trier et 
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **_Trie ce tableau..._** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre la finalité des diapositives et le thème sur lequel se concentrer.<br><br>«  _… pour rechercher le vendeur le plus performant._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | La **source** de ce prompt est supposée être le tableau avec lequel nous travaillons dans Excel.<br><br>«  _… ce tableau [Table1]…_  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le tableau soit trié, filtré et présenté.<br><br>« _Ajoute une troisième colonne qui calcule le revenu net par utilisateur engagé, en tenant compte de leurs coûts budgétaires. Trie ce tableau dans l’ordre décroissant par revenu net par utilisateur engagé et surligne les propriétaires du haut et du bas de l’échelle._  » |
+| **Invite de base :** commencez par un **objectif** | **_Trie ce tableau..._** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre la finalité des diapositives et le thème sur lequel se concentrer. _« …pour rechercher le vendeur le plus performant. »_ |
+| **Meilleur prompt :** spécifier la ou les **sources** | La **source** de ce prompt est supposée être le tableau avec lequel nous travaillons dans Excel. _« … ce tableau [Table1]… »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le tableau soit trié, filtré et présenté. _« et mets en évidence les meilleurs et les pires propriétaires de campagne selon leur revenu net. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
 >
-> _Trie ce tableau [Table1] pour rechercher le vendeur le plus performant. Ajoute une troisième colonne qui calcule le revenu net par utilisateur engagé, en tenant compte de leurs coûts budgétaires. Trie ce tableau dans l’ordre décroissant par revenu net par utilisateur engagé et surligner les propriétaires du haut et du bas de l’échelle._
+> _Trie le tableau [Tableau1] pour rechercher le vendeur le plus performant et mets en évidence les meilleurs et les pires propriétaires de campagnes selon leur revenu net._
 
-Ce prompt nécessite plusieurs étapes pour exécuter une technique de prompt appelée **chaînage** qui consiste à demander à Copilot d’effectuer des commandes séquentielles et back-to-back pour atteindre un seul objectif. 
+Ce prompt nécessite plusieurs étapes pour exécuter une technique de prompt appelée **chaînage** qui consiste à demander à Copilot d’effectuer des commandes séquentielles et back-to-back pour atteindre un seul objectif.
 
-Dans l’invite conçue, Copilot comprend qu’il doit d’abord trouver une formule pour la nouvelle colonne pour calculer le revenu net par utilisateur engagé et l’insérer dans le tableau.
+**Premier prompt** :
 
-![Capture d’écran de Copilot dans Excel générant une formule à insérer dans le tableau.](../media/copilot-add-formula-excel.png)
+```text
+Sort this table [Table1] to look for the most impactful salesperson.
+```
 
-Maintenant que la nouvelle colonne a été insérée dans le tableau, vous pouvez demander à Copilot de trier le tableau en fonction du revenu net le plus élevé par utilisateur engagé, ainsi que de mettre en évidence les meilleurs et les moins bons vendeurs.
+**Deuxième prompt** :
 
-[![Capture d’écran des résultats du prompt créé sur l’exemple de feuille de calcul à l’aide de Copilot dans Excel.](../media/copilot-sort-highlight-table-excel.png)](../media/copilot-sort-highlight-table-excel.png#lightbox)
+```text
+highlight the top and bottom campaign owners based off of net revenue
+```
 
 Copilot dispose de toutes les informations dont il a besoin pour vous donner une réponse efficace, grâce à l’**objectif**, au **contexte**, à la **source** et aux **attentes** que contient cette invite.
 
@@ -59,4 +64,4 @@ Essayez ces invites simples pour mettre en surbrillance, trier et filtrer vos do
 - Appliquer un filtre sur les éléments dus la semaine prochaine.
 
 > [!IMPORTANT]
-> Copilot utilise uniquement les fichiers stockés sur OneDrive ou SharePoint. Si vous ne pouvez pas sélectionner le bouton Copilot dans le ruban, essayez d’abord d’enregistrer le fichier dans le cloud. Pour plus d’informations, consultez **[Mettre en surbrillance, trier et filtrer vos données avec Copilot dans Excel](https://support.microsoft.com/office/highlight-sort-and-filter-your-data-with-copilot-in-excel-05302e3f-de42-4475-b235-be9cb3d4e936)**.
+> Copilot utilise uniquement les fichiers stockés sur OneDrive ou SharePoint. Si vous ne pouvez pas sélectionner le bouton Copilot dans le ruban, essayez d’abord d’enregistrer le fichier dans le cloud. Pour plus d’informations, consultez [Mettre en surbrillance, trier et filtrer vos données avec Copilot dans Excel](https://support.microsoft.com/office/highlight-sort-and-filter-your-data-with-copilot-in-excel-05302e3f-de42-4475-b235-be9cb3d4e936).

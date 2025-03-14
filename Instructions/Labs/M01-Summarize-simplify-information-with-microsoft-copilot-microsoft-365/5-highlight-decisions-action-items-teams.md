@@ -1,3 +1,4 @@
+# Mettre en évidence les décisions et les actions clés à partir de réunions Teams
 
 Copilot dans Microsoft Teams améliore la collaboration et vous aide à tirer le meilleur parti de vos conversations et réunions Teams. Récapitulez rapidement, identifiez les tâches de suivi, créez des ordres du jour et posez des questions pour des réunions plus efficaces et plus ciblées. Résumez les points clés à retenir, voyez ce qui a été omis et identifiez les personnes clés qui vous intéressent dans les fils de conversation auxquels vous avez été ajouté. Tout cela sans interrompre le flux de discussion. Copilot est disponible dans les réunions et appels suivants :
 
@@ -17,13 +18,13 @@ Copilot en Teams utilise votre contenu de conversation et de réunion Teams pour
 
 - La réunion ou l’appel est assez long pour que Copilot analyse. Si la réunion manque encore de paroles transcrites, Copilot indique qu’il lui faut des informations supplémentaires avant de répondre aux invites.
 
-Pendant une réunion ou un appel, sélectionnez **Copilot** dans les contrôles de réunion. Si la transcription n’est pas déjà activée, vous êtes invité à l’activer. 
+Pendant une réunion ou un appel, sélectionnez **Copilot** dans les contrôles de réunion. Si la transcription n’est pas déjà activée, vous êtes invité à l’activer.
 
-![Capture d’écran de l’icône Copilot dans une réunion Teams.](../media/copilot-ribbon-teams.png)
+![Capture d’écran de l’icône Copilot dans une réunion Teams.](../media/summarize_copilot-ribbon-teams.png)
 
 Le volet Copilot s’ouvre sur le côté droit de la fenêtre de la réunion. Une fois la réunion terminée, sélectionnez la réunion dans votre **calendrier Teams**. Ensuite, sélectionnez l’onglet **Récapitulatif** dans les détails de votre réunion. Vous pouvez également accéder au volet Copilot à partir du récapitulatif de la réunion pour poser des questions sur la réunion.
 
-![Capture d’écran du volet de conversation Copilot dans Teams lors de la première ouverture.](../media/copilot-pane-teams.png)
+![Capture d’écran du volet de conversation Copilot dans Teams lors de la première ouverture.](../media/summarize_copilot-pane-teams.png)
 
 ## Commençons
 
@@ -36,10 +37,10 @@ Dans ce prompt simple, vous commencez par l’**objectif** de base : _récapitu
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **Faites un récapitulatif de cette réunion Teams.** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre l’objectif et à ajuster la réponse en conséquence.<br><br>« _J’étais en retard et j’ai besoin d’une brève présentation de la chronologie du projet._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | L’ajout de **sources** peut aider Copilot à comprendre quelle partie il doit résumer et à fournir une réponse plus précise.<br><br>« _Adele Vance a-t-elle proposé d’apporter des modifications ?_  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis.<br><br>« _Inclue la chronologie du projet dans un tableau et toutes les modifications proposées par Adele._  » |
+| **Invite de base :** commencez par un **objectif** | **Faites un récapitulatif de cette réunion Teams.** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre l’objectif et à ajuster la réponse en conséquence. _« J’étais en retard et j’ai besoin d’une brève présentation de la chronologie du projet. »_ |
+| **Meilleur prompt :** spécifier la ou les **sources** | L’ajout de **sources** peut aider Copilot à comprendre quelle partie il doit résumer et à fournir une réponse plus précise. _« Adele Vance a-t-elle proposé d’apporter des modifications ? »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis. _« Inclue la chronologie du projet dans un tableau et toutes les modifications proposées par Adele. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
@@ -59,4 +60,4 @@ Lorsque vous ouvrez **Copilot dans Teams** pour la première fois, vous voyez de
 - Résumer les e-mails non lus de [cette personne]
 
 > [!IMPORTANT]
-> Copilot dans Teams est disponible sur Windows, Mac, le web, Android et iOS. Vous devez disposer d’une licence Microsoft 365 et Microsoft 365 Copilot pour accéder à Copilot dans Teams. Pour plus de scénarios sur l’utilisation de Copilot dans les réunions Teams, consultez [Démarrer avec Copilot dans les réunions Microsoft Teams](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1). 
+> Copilot dans Teams est disponible sur Windows, Mac, le web, Android et iOS. Vous devez disposer d’une licence Microsoft 365 et Microsoft 365 Copilot pour accéder à Copilot dans Teams. Pour plus de scénarios sur l’utilisation de Copilot dans les réunions Teams, consultez [Démarrer avec Copilot dans les réunions Microsoft Teams](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).

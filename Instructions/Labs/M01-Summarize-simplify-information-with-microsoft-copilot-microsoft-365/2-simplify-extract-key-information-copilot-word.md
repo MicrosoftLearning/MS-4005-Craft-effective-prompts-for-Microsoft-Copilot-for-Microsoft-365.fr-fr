@@ -1,11 +1,12 @@
+# Simplifier et extraire des informations clés avec Copilot dans Word
 
-Pour commencer à utiliser Microsoft 365 Copilot dans Word, vous pouvez ouvrir le volet **Copilot** en sélectionnant l’icône Copilot dans l’onglet **Accueil** du ruban. 
+Pour commencer à utiliser Microsoft 365 Copilot dans Word, vous pouvez ouvrir le volet **Copilot** en sélectionnant l’icône Copilot dans l’onglet **Accueil** du ruban.
 
-![Capture d’écran de l’icône Copilot dans le ruban Word.](../media/copilot-ribbon-word.png)
+![Capture d’écran de l’icône Copilot dans le ruban Word.](../media/summarize_copilot-ribbon-word.png)
 
 Cette fonctionnalité utile fournit des réponses aux questions ( larges ou spécifiques) sur votre document. Lors d'un dialogue visant à itérer et à affiner vos résultats, demandez-lui de générer des idées, des tableaux ou des listes que vous pouvez copier et insérer dans votre document pour obtenir un résumé ou des informations spécifiques sur le contenu du document.
 
-![Capture d’écran du volet Copilot dans Word lors de la première ouverture.](../media/copilot-pane-word.png)
+![Capture d’écran du volet Copilot dans Word lors de la première ouverture.](../media/summarize_copilot-pane-word.png)
 
 Dans l’exemple suivant, nous transformons un prompt de base pour Copilot dans Word en un prompt contextuel bien construit qui vous donne exactement ce dont vous avez besoin, de la façon dont vous en avez besoin.
 
@@ -24,19 +25,17 @@ Dans ce prompt simple, vous commencez par l’**objectif** de base : _résumer 
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **Résume ce document Word.** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre la finalité du résumé et à adapter la réponse en conséquence.<br><br>« _en donnant un bref aperçu des principaux points à discuter avec mon équipe lors de la réunion de vente de demain._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | L’ajout de **sources** peut aider Copilot à comprendre quel document ou quelle partie il doit résumer et à fournir une réponse plus précise.<br><br>«  _…la section sur l’analyse concurrentielle…_  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis.<br><br>« _Merci de limiter le résumé à 5 points clés et d’utiliser un langage simple._  » |
+| **Invite de base :** commencez par un **objectif** | **Résume ce document Word.** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre la finalité du résumé et à adapter la réponse en conséquence. _« en donnant un bref aperçu des principaux points à discuter avec mon équipe lors de la réunion de vente de demain. »_ |
+| **Meilleur prompt :** spécifier la ou les **sources** | L’ajout de **sources** peut aider Copilot à comprendre quel document ou quelle partie il doit résumer et à fournir une réponse plus précise. _« …la section sur l’analyse concurrentielle… »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis. _« Merci de limiter le résumé à 5 points clés et d’utiliser un langage simple. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
 >
 > _Résume la section sur l’analyse concurrentielle dans ce document Word en donnant un bref aperçu des principaux points à discuter avec mon équipe lors de la réunion de vente de demain. Merci de limiter le résumé à 5 points clés et d’utiliser un langage simple._
 
-[![Capture d’écran des résultats du prompt créé à partir de l’exemple de document à l’aide de Copilot dans Word.](../media/copilot-summarize-results-word.png)](../media/copilot-summarize-results-word.png#lightbox)
-
-Ce prompt contient tous les détails nécessaires - **Objectif**, **Contexte**, **Source** et **Attentes** - afin que Copilot puisse vous donner la réponse que vous recherchez. 
+Ce prompt contient tous les détails nécessaires - **Objectif**, **Contexte**, **Source** et **Attentes** - afin que Copilot puisse vous donner la réponse que vous recherchez.
 
 ## Explorer davantage
 
@@ -45,6 +44,6 @@ Essayez le prompt final que nous avons créé, mais en utilisant votre propre do
 De quelles autres façons pourriez-vous ajouter du contexte, des sources ou des attentes à votre prompt ? Existe-t-il d’autres stratégies de prompt que vous pourriez utiliser pour générer la réponse souhaitée ?
 
 > [!IMPORTANT]
-> Cette fonctionnalité est disponible pour les clients disposant d’une licence Copilot pour Microsoft 365 ou d’une licence Copilot Pro. Pour plus d’informations, consultez [Bienvenue dans Copilot dans Word](https://support.microsoft.com/en-us/office/welcome-to-copilot-in-word-2135e85f-a467-463b-b2f0-c51a46d625d1).
+> Cette fonctionnalité est disponible pour les clients disposant d’une licence Microsoft 365 Copilot ou d’une licence Copilot Pro. Pour plus d’informations, consultez [Bienvenue dans Copilot dans Word](https://support.microsoft.com/office/welcome-to-copilot-in-word-2135e85f-a467-463b-b2f0-c51a46d625d1).
 
 Dans l’unité suivante, nous allons examiner comment créer des prompts similaires pour Copilot dans PowerPoint.

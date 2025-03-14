@@ -1,3 +1,5 @@
+# Rédiger des e-mails, réponses et ordres du jour de réunions avec Microsoft 365 Copilot dans Outlook
+
 Copilot dans Outlook facilite la gestion des boîtes de réception à l’aide de l’IA pour vous aider à écrire rapidement des e-mails et à résumer brièvement de longs fils de discussion par e-mail. Il combine la puissance des grands modèles de langage (LLMs) avec les données Outlook pour vous aider à maintenir votre productivité sur votre lieu de travail. Il peut résumer des fils d’e-mails (également connus sous le nom de conversations), en extrayant les points clés de plusieurs messages.
 
 > [!NOTE]
@@ -11,13 +13,13 @@ Copilot dans Outlook peut vous aider à rédiger rapidement un e-mail ou une ré
 
 1. Sélectionnez **Brouillon avec Copilot** dans le menu déroulant.
 
-    ![Capture d’écran de l’icône Copilot dans la barre d’outils Outlook.](../media/copilot-toolbar-outlook.png)
+    ![Capture d’écran de l’icône Copilot dans la barre d’outils Outlook.](../media/create_copilot-toolbar-outlook.png)
 
 1. **Rédigez votre prompt** dans la zone de texte Copilot.
 
 1. Sélectionnez **Générer des options** pour choisir la longueur et le ton souhaités.
 
-    ![Capture d’écran des options disponibles pour personnaliser votre brouillon dans Copilot pour Outlook.](../media/copilot-generate-options-outlook.png)
+    ![Capture d’écran des options disponibles pour personnaliser votre brouillon dans Copilot pour Outlook.](../media/create_copilot-generate-options-outlook.png)
 
 1. Lorsque vous avez terminé, sélectionnez **Générer**. Copilot rédige votre message.
 
@@ -29,7 +31,7 @@ Copilot dans Outlook peut vous aider à rédiger rapidement un e-mail ou une ré
 
 1. Modifiez le brouillon autant que nécessaire, puis sélectionnez **Envoyer**.
 
-    ![Capture d’écran d’un brouillon d’e-mail généré avec Copilot dans Outlook.](../media/copilot-draft-results-outlook.png)
+    ![Capture d’écran d’un brouillon d’e-mail généré avec Copilot dans Outlook.](../media/create_copilot-draft-results-outlook.png)
 
 ## Commençons
 
@@ -42,17 +44,17 @@ Dans ce prompt simple, vous commencez par l’**objectif** de base : _rédiger 
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **_Rédige un nouvel e-mail._** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre de quoi doit parler l’e-mail et à qui il est destiné.<br><br>«  _...à mon client, Allan Deyoung, concernant le statut de son ticket de support._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | L’ajout de **sources** peut aider Copilot à savoir où rechercher des informations spécifiques.<br><br>«  _...Consulte mes e-mails pour obtenir les informations les plus récentes sur le ticket #1928374655._  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le document soit écrit et mis en forme.<br><br>« _L’e-mail doit être professionnel et technique, mais écrit avec empathie._  » |
+| **Invite de base :** commencez par un **objectif** | **_Rédige un nouvel e-mail._** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre de quoi doit parler l’e-mail et à qui il est destiné. _« ...à mon client, Allan Deyoung, concernant le statut de son ticket de support. »_ |
+| **Meilleur prompt :** spécifier la ou les **sources** | L’ajout de **sources** peut aider Copilot à savoir où rechercher des informations spécifiques. _« Reporte-toi à la dernière mise à jour de mes notes : le problème a été transmis au support de niveau 2 et une résolution est attendue sous 48 heures. »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment vous souhaitez que le document soit écrit et mis en forme. _« L’e-mail doit être professionnel et technique, mais écrit avec empathie. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
 >
-> _Rédige un nouvel e-mail à mon client, Allan Deyoung, concernant le statut de son ticket de support. Consulte mes e-mails pour obtenir les informations les plus récentes sur le ticket #1928374655. L’e-mail doit être professionnel et technique, mais écrit avec empathie._
+> _Rédige un nouvel e-mail à mon client, Allan Deyoung, concernant le statut de son ticket de support. Reporte-toi à la dernière mise à jour de mes notes : le problème a été transmis au support de niveau 2 et une résolution est attendue sous 48 heures. L’e-mail doit être professionnel et technique, mais écrit avec empathie._
 
-Copilot dispose de toutes les informations dont il a besoin pour vous donner une réponse efficace, grâce à l’**objectif**, au **contexte**, à la **source** et aux **attentes** que contient ce prompt. 
+Copilot dispose de toutes les informations dont il a besoin pour vous donner une réponse efficace, grâce à l’**objectif**, au **contexte**, à la **source** et aux **attentes** que contient ce prompt.
 
 > [!IMPORTANT]
 > Pour le moment, Copilot dans Outlook prend uniquement en charge les comptes professionnels ou scolaires et les comptes Microsoft utilisant des adresses e-mail outlook.com, hotmail.com, live.com et msn.com. Tout compte Microsoft utilisant un compte provenant d’un fournisseur de messagerie tiers, tel que Gmail, Yahoo ou iCloud, peut utiliser Outlook, mais il n’a pas accès aux fonctionnalités Copilot dans Outlook. Pour plus d’informations, consultez [Rédiger un e-mail avec Copilot dans Outlook](https://support.microsoft.com/office/draft-an-email-message-with-copilot-in-outlook-3eb1d053-89b8-491c-8a6e-746015238d9b).

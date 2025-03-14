@@ -1,7 +1,8 @@
+# Résumé
 
 Dans ce module, vous avez appris à créer des prompts contextuels efficaces permettant à Microsoft 365 Copilot de chercher des informations dans des documents et des fichiers Microsoft. Vous avez également découvert Microsoft 365 Copilot et ses différentes fonctionnalités dans différentes applications Microsoft. Il génère des informations et des suggestions basées sur vos fichiers, documents, conversations et réunions. Ce module vous a permis d’acquérir les connaissances et techniques nécessaires pour créer des prompts qui produisent des résultats précis et utiles à partir de Microsoft 365 Copilot.
 
-Les principaux points à retenir de ce module sont les suivants :
+Les principaux points à retenir de ce module sont les suivants :
 
 - Microsoft 365 Copilot est un outil puissant qui peut vous aider dans diverses applications Microsoft telles que Word, PowerPoint, Excel, OneNote et Teams.
 

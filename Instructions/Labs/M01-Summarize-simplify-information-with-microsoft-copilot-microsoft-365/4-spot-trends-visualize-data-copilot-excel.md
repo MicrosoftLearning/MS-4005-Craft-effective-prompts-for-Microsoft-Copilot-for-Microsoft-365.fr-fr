@@ -1,11 +1,17 @@
+# Repérer les tendances et visualiser des données avec Copilot dans Excel
 
-Microsoft 365 Copilot dans Excel vous aide à exploiter davantage vos données dans les tableaux Excel en générant des suggestions de colonnes de formule, en affichant des informations dans des graphiques et des tableaux croisés dynamiques et en mettant en évidence les parties intéressantes des données. 
+Microsoft 365 Copilot dans Excel vous aide à exploiter davantage vos données dans les tableaux Excel en générant des suggestions de colonnes de formule, en affichant des informations dans des graphiques et des tableaux croisés dynamiques et en mettant en évidence les parties intéressantes des données.
 
-Dans Excel, sélectionnez **Copilot**  dans le ruban pour ouvrir le volet de conversation. Vous devez disposer d’un **tableau Excel** incluant des données dans une feuille de calcul avant d’utiliser Copilot. 
+Dans Excel, sélectionnez **Copilot**  dans le ruban pour ouvrir le volet de conversation.
 
-![Capture d’écran de l’icône Copilot dans le ruban Excel.](../media/copilot-ribbon-excel.png)
+![Capture d’écran de l’icône Copilot dans le ruban Excel.](../media/summarize_copilot-ribbon-excel.png)
 
-Vous pouvez transformer rapidement une plage de cellules en un tableau Excel en procédant comme suit : 
+Pour utiliser Copilot dans Excel, vos données doivent être mises en forme de l’une des manières suivantes :
+
+- Sous forme de tableau Excel
+- Sous forme de plage de données
+
+Vous pouvez créer un tableau ou convertir une plage de cellules en tableau si vous disposez d’une plage de données en procédant comme suit :
 
 1. Sélectionnez la cellule ou la plage de données.
 
@@ -15,7 +21,20 @@ Vous pouvez transformer rapidement une plage de cellules en un tableau Excel en 
 
 1. Sélectionnez **OK**.
 
-![Capture d’écran du panneau Copilot dans Excel lors de la première ouverture.](../media/copilot-pane-excel.png)
+Si vous préférez conserver vos données dans une plage et ne pas les convertir en tableau, elles devront répondre à toutes les exigences suivantes :
+
+- Une seule ligne d’en-tête.
+- Les en-têtes sont uniquement sur les colonnes, et non sur les lignes.
+- Les en-têtes sont uniques ; aucun en-tête en double.
+- Aucun en-tête vide.
+- Les données sont mises en forme de manière cohérente.
+- Aucun sous-total.
+- Aucune ligne ou colonne vide.
+- Aucune cellule fusionnée.
+
+Dans l’exemple suivant, nous commençons par une requête de base pour analyser un tableau et ajoutons progressivement des éléments afin de rendre l’invite plus efficace.
+
+![Capture d’écran du panneau Copilot dans Excel lors de la première ouverture.](../media/summarize_copilot-pane-excel.png)
 
 ## Commençons
 
@@ -32,17 +51,15 @@ Avec ce prompt simple, vous commencez par l’**Objectif** de base : _analyser 
 
 | Élément | Exemple |
 | :------ | :------- |
-| Prompt de base : <br>Commencer par un **objectif** | **Analyse ce tableau dans Excel.** |
-| Prompt correct : <br>Ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre l’objectif de l’analyse et à ajuster la réponse en conséquence.<br><br>« _Nous recherchons les produits les plus vendus de mai à août afin d’élaborer notre stratégie marketing pour l’année prochaine._  » |
-| Prompt amélioré : <br>Spécifier la ou les **source(s)** | L’ajout de **sources** peut aider Copilot à préciser l’étendue de la recherche en lui indiquant d’utiliser des informations ou des plages de dates spécifiques.<br><br>«  _... de mai à août..._  » |
-| Prompt le plus efficace : <br>Définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis.<br><br>« _Mets en évidence le produit le plus vendu pour chaque magasin et mois._  » |
+| **Invite de base :** commencez par un **objectif** | **Analyse ce tableau dans Excel.** |
+| **Bon prompt :** ajouter un **contexte** | L’ajout de **contexte** peut aider Copilot à comprendre l’objectif de l’analyse et à ajuster la réponse en conséquence. _« Nous recherchons les produits les plus vendus de mai à août, pour les ventes de chai artisanal et les ventes de chai préparé »._ |
+| **Meilleur prompt :** spécifier la ou les **sources** | L’ajout de **sources** peut aider Copilot à préciser l’étendue de la recherche en lui indiquant d’utiliser des informations ou des plages de dates spécifiques. _« ...de mai à août, pour les ventes de chai artisanal et les ventes de chai préparé... »_ |
+| **Meilleur prompt :** définir des **attentes** claires | Enfin, ajouter des **attentes** peut aider Copilot à comprendre comment mettre en forme le résumé et quel niveau de détail est requis. _« Résume le produit le plus vendu pour chaque mois. »_ |
 
 > [!NOTE]
 > **Prompt créé **:
 >
-> _Analyse ce tableau dans Excel. Nous recherchons les produits les plus vendus de mai à août afin d’élaborer notre stratégie marketing pour l’année prochaine. Mets en évidence le produit le plus vendu pour chaque magasin et mois._
-
-[![Capture d’écran des résultats du prompt créé à l’aide de Copilot dans Excel.](../media/copilot-results-excel.png)](../media/copilot-results-excel.png#lightbox)
+> _Analyse ce tableau dans Excel. Nous recherchons les produits les plus vendus de mai à août, pour les ventes artisanales de chai ou les ventes de chai préparé. Résume le produit le plus vendu pour chaque mois._
 
 Ce prompt donne à Copilot tout ce dont il a besoin pour trouver une bonne réponse, notamment l’**objectif**, le **contexte**, la **source** et les **attentes**.
 
@@ -57,4 +74,4 @@ Essayez l’invite finale que nous avons créée et d’autres invites avec votr
 - Affiche le total des ventes publicitaires pour chaque région l’année dernière.
 
 > [!IMPORTANT]
-> Cette fonctionnalité est disponible pour les clients disposant d’une licence Copilot pour Microsoft 365 ou d’une licence Copilot Pro. Pour en savoir plus sur les tableaux Excel et savoir comment les créer, consultez [Créer un tableau dans Excel](https://support.microsoft.com/office/bf0ce08b-d012-42ec-8ecf-a2259c9faf3f). 
+> Cette fonctionnalité est disponible pour les clients disposant d’une licence Microsoft 365 Copilot ou d’une licence Copilot Pro. Pour en savoir plus sur les tableaux Excel et savoir comment les créer, consultez [Créer un tableau dans Excel](https://support.microsoft.com/office/bf0ce08b-d012-42ec-8ecf-a2259c9faf3f).

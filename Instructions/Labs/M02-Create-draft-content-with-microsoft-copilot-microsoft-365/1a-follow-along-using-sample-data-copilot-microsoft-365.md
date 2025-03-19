@@ -18,7 +18,7 @@ Suivez les étapes ci-dessous pour charger tous les fichiers requis dans **OneDr
 4. Sous **Bienvenue dans Microsoft 365**, sélectionnez **Se connecter**.
 5. À l’**invite de connexion**, entrez `userx@yourtenant.onmicrosoft.com` (nom d’utilisateur et locataire fournis par votre fournisseur de locataire), puis sélectionnez **Suivant**.
 
-    [![Capture d’écran du volet de ressources dans Skillable](../media/lab_resources_password.png)](../media/lab_resources_password.png#lightbox)
+    [![Capture d’écran du volet de ressources](../media/lab_resources_password.png)](../media/lab_resources_password.png#lightbox)
 
 6. Dans l’écran **Entrez le mot de passe**, entrez le mot de passe (fourni par le fournisseur de locataire) pour le compte d’utilisateur, puis sélectionnez **Se connecter**.
 7. Si vous êtes invité à **rester connecté**, sélectionnez **Ne plus afficher**, puis **Oui**.
@@ -37,4 +37,4 @@ Lorsque vous référencez des fichiers à partir de Copilot, vous pouvez constat
 > [!IMPORTANT]
 > Microsoft 365 Copilot fonctionne uniquement avec les fichiers enregistrés dans OneDrive. Si les fichiers sont stockés localement sur votre PC, vous devrez les déplacer vers OneDrive pour activer Copilot.
 
-À mesure que vous progressez dans le module, vous aurez la possibilité d’essayer d’autres prompts sur ces fichiers et vous êtes encouragés à le faire pour explorer et améliorer vos compétences d’invite.
+À mesure que vous progressez dans le module, vous aurez la possibilité d’essayer d’autres invites sur ces fichiers et vous êtes encouragés à le faire pour explorer et améliorer vos compétences d’invite.

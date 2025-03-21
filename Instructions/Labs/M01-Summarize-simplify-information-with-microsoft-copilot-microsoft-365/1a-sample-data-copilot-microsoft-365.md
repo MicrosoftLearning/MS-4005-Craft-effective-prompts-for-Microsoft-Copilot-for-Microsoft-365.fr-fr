@@ -16,7 +16,7 @@ Suivez les étapes ci-dessous pour charger tous les fichiers requis dans **OneDr
 
 1. Connectez-vous à la machine virtuelle fournie par votre fournisseur de locataire en tant que compte **Administrateur** local avec le mot de passe `Pa55w.rd`.
 2. Dans la barre des tâches Windows, sélectionnez **Microsoft Edge**.
-3. Dans la barre d’adresse, entrez `https://www.office.com` .
+3. Dans la barre d’adresse, entrez `https://onedrive.live.com/login` .
 4. Sous **Bienvenue dans Microsoft 365**, sélectionnez **Se connecter**.
 5. À l’**invite de connexion**, entrez `userx@yourtenant.onmicrosoft.com` (nom d’utilisateur et locataire fournis par votre fournisseur de locataire), puis sélectionnez **Suivant**.
 
@@ -24,16 +24,14 @@ Suivez les étapes ci-dessous pour charger tous les fichiers requis dans **OneDr
 
 6. Dans l’écran **Entrez le mot de passe**, entrez le mot de passe (fourni par le fournisseur de locataire) pour le compte d’utilisateur, puis sélectionnez **Se connecter**.
 7. Si vous êtes invité à **rester connecté**, sélectionnez **Ne plus afficher**, puis **Oui**.
+8. Dans **OneDrive**, dans le coin supérieur gauche, sélectionnez **+** (ajouter) > **Chargement de fichiers**.
 
-    **Note :** si la page web apparaît floue après la connexion, actualisez la page.
+    [![Capture d’écran de l’ajout d’un nouveau fichier](../media/add_new.png)](../media/add_new.png#lightbox)
 
-8. Dans **Microsoft 365**, sélectionnez **Applications**.
-9. Dans **Applications**, sélectionnez **OneDrive**.
-10. Dans **OneDrive**, dans le coin supérieur gauche, sélectionnez **+** (ajouter) > **Chargement de fichiers**.
-11. Dans l’**Explorateur de fichiers**, sélectionnez **Ce PC** > **Disque local (C:)** et ouvrez le dossier **ResourceFiles**.
-12. Sélectionnez tous les fichiers du dossier **ResourceFiles**, puis sélectionnez **Ouvrir** pour les charger dans **OneDrive**.
-13. Une fois le chargement terminé, vous devriez voir **29 éléments chargés dans Mes fichiers** en bas au centre de l’écran.
-14. Laissez **Edge** ouvert et passez à la tâche suivante.
+9. Dans l’**Explorateur de fichiers**, sélectionnez **Ce PC** > **Disque local (C:)** et ouvrez le dossier **ResourceFiles**.
+10. Sélectionnez tous les fichiers du dossier **ResourceFiles**, puis sélectionnez **Ouvrir** pour les charger dans **OneDrive**.
+11. Une fois le chargement terminé, vous devriez voir **29 éléments chargés dans Mes fichiers** en bas au centre de l’écran.
+12. Laissez **Edge** ouvert et passez à la tâche suivante.
 
 ### Référencement de fichiers
 
